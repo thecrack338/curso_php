@@ -6,7 +6,7 @@ include "conexion.php";
 #porque si no lanza error
 #ACENDENTE
 #DESENDENTE
-$sql ="SELECT * FROM alumnos WHERE id > 5 ORDER BY id DESC ASC";
+$sql ="SELECT * FROM alumnos WHERE id > 5 ORDER BY id DESC";
 
 
 #consultar la consulta
